@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divs {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	height: 12cm;
+	width: 12cm;
+	overflow-style:auto;
+	
+	position:relative;
+	overflow:scroll;
+	font-size: 11px;
+	display:inline-block;
+}
+
+#divp {
+	font-family: Arial, Helvetica, sans-serif;
+     
+	height: 900px;
+	width: 900px;
+	overflow-style:auto;
+	
+	position:relative;
+	overflow:scroll;
+	font-size: 11px;
+	display:inline-block;
+}
+
+#divs2 {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	height: 10cm;
+	width: 4cm;
+	overflow-style:auto;
+	color:#330000;
+	position:absolute;
+	overflow:scroll;
+	font-size: 11px;
+	display:inline-block;
+}
+#divhead {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	height: 3cm;
+	width: 18cm;
+	position:relative;
+	
+	font-size: 11px;
+	display:inline-blocks;
+}
+
+#vioR {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #f68787;
+}
+#vioO {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #e5651f;
+}
+#vio {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #f2b338;
+}
+.button_example{
+border:2px solid #616261; -webkit-border-radius: 11px; -moz-border-radius: 11px;border-radius: 11px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: 2px 2px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #7d7e7d; background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+ background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+height:auto;
+animation:cubic-bezier();
+}
+
+.button_example:hover{
+ border:3px solid #4a4b4a;
+ background-color: #646464; background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#282828));
+ background-image: -webkit-linear-gradient(top, #646464, #282828);
+ background-image: -moz-linear-gradient(top, #646464, #282828);
+ background-image: -ms-linear-gradient(top, #646464, #282828);
+ background-image: -o-linear-gradient(top, #646464, #282828);
+ background-image: linear-gradient(to bottom, #646464, #282828);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828);
+}
