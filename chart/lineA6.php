@@ -74,7 +74,7 @@
 				// to the options and initiate the chart.
 				// This data is obtained by exporting a GA custom report to TSV.
 				// http://api.jquery.com/jQuery.get/
-				jQuery.get('data.php', null, function(tsv) {
+				jQuery.get('dataA6.php', null, function(tsv) {
 					var lines = [];
 					traffic = [];
 					try {

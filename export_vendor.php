@@ -27,10 +27,9 @@ and website_id = $web_id
 order by violation_amount desc";
 	$result = mysql_query($sql)	or die("Couldn't execute query:<br>".mysql_error().'<br>'.mysql_errno());
 
-	//header('Content-Type: application/vnd.ms-excel');	
-	//header('Content-Disposition: attachment; filename='.$dbTable.'-'.date('Ymd'));
-	header("Content-Type: application/pdf");
-     header('Content-Disposition:attachment; filename="testing.pdf"'); //view in browser
+	header('Content-Type: application/vnd.ms-excel');	
+	header('Content-Disposition: attachment; filename='.$dbTable.'-'.date('Ymd'));
+	
 	header('Pragma: no-cache');
 	header('Expires: 0');
 
